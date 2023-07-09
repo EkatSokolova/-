@@ -1,6 +1,7 @@
 # Импортируем необходимые модули
 import pygame
 import random
+from functions import draw_score
 
 # Инициализация библиотеки Pygame
 pygame.init()
@@ -19,3 +20,15 @@ pygame.display.set_caption("Школьный проект")
 
 # Создание объекта игрока
 class Игрок(pygame.sprite.Sprite):
+
+
+# Остальной код
+
+# В основном цикле игры
+while running:
+    # Остальной код
+
+    # Отображение счета игрока
+    draw_score(score)
+
+    # Остальной код
